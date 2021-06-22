@@ -1,40 +1,129 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title> Project 77</title>
-</head>
-<body>
-    <h1>  Project 77 Learning Console</h1>\
-    <p>
-        Step 1 - Make sure your computer is ready for Visual Studio. ...
-        Step 2 - Download Visual Studio. ...
-        Step 3 - Install the Visual Studio installer. ...
-        Step 4 - Choose workloads. ...
-        Step 5 - Choose individual components (Optional) ...
-        Step 6 - Install language packs (Optional)
-    </p>
-    <p> WHAT IS A CONSOLE SCREEN</p>
-    <p> A console is the combination of a monitor and keyboard. It is a rudimentary interface in which the monitor provides the output and the keyboard is used for input. While any computer with a monitor and keyboard may be considered a console, the term most often refers to a system used to control one or more servers.</p>
-    <p>WHY DO WE USE A CONSOLE SCREEN</p>
-    <p> Also known as a terminal or computer console, a console is a combination of a display monitor and an input device, typically a keyboard and/or mouse. It allows users to input commands and receive visual output from a computer or computer system.</p>
-    <p> HOW TO OPEN A CONSOLE SCREEN</p>
-    <p>Step 1: To open the console in Chrome, use this keyboard shortcut: Cmd + Option + J (on a Mac) or Ctrl +Shift +J (on Windows). As an alternative, you can right-click on the webpage and click "Inspect" to open the developer console. Step 2: Click the "Console" tab in that window.</p>
-    <p> HOW TO PRINT A CONSOLE SCREEN</p>
-    <p> You should use the console. log() method to print to console JavaScript. The JavaScript console log function is mainly used for code debugging as it makes the JavaScript print the output to the console. To open the browser console, right-click on the page and select Inspect, and then click Console.</p>
-    <script>
-        console.log("my first console project");
-        var firstname="Ranbir";
-        console.log(firstname);
-        var lastname="Kapoor";
-        console.log(lastname);
-        var fullname=firstname.concat(lastname);
-        console.log(fullname);
-        var lengthofname=fullname.length;
-        console.log(lengthofname);
-        var a = 10
-        var b = 5
-        var add = a.concat(b);
-        console.log(add);
-    </script>
-</body>
+<p>
+    How to declare the arrays ?
+    <h4 id="declaration_of_arrays">
+    </h4>
+</p>
+<hr>
+<p>
+    How to fetch the first element of the array ?
+    <h4 id="access_first_element">
+    </h4>
+</p>
+<hr>
+<p>
+    How to fetch the second element of the array ?
+    <h4 id="access_second_element">
+    </h4>
+</p>
+<hr>
+<p>
+    How to fetch the third element of the array ?
+    <h4 id="access_third_element">
+    </h4>
+</p>
+<hr>
+<p>
+    How to get the length of the array ?
+    <h4 id="display_length_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to loop the array array ?
+    <h4 id="loop_the_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to add element at the end of the array ?
+    <h4 id="add_element_at_the_end_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to add more element at the end of the array ?
+    <h4 id="add_more_element_at_the_end_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to declare the arrays with alphabets ?
+    <h4 id="display_alphabets_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to sort the arrays with alphabets ?
+    <h4 id="display_sorted_alphabets_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to reverse the arrays with alphabets ?
+    <h4 id="display_reverse_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to declare the arrays with numbers ?
+    <h4 id="display_number_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to find the maximum number from the arrays ?
+    <h4 id="display_maximum_number">
+    </h4>
+</p>
+<hr>
+<p>
+    How to find the minimum number from the arrays ?
+    <h4 id="display_minimum_number">
+    </h4>
+</p>
+
+<h3 style="background-color: red; font-size: 23px;">
+    ADDITIONAL ACTIVITY
+</h3>
+<p>
+    How to add element at the start of the array ? Hint use unshift method
+    <h4 id="add_element_at_the_start_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to add more element at the start of the array ? Hint use unshift method
+    <h4 id="add_more_element_at_the_start_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to remove element from the start of the array ? Hint use shift method
+    <h4 id="remove_element_from_start_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to remove element from the end of the array ? Hint use pop method
+    <h4 id="remove_element_from_end_of_array">
+    </h4>
+</p>
+<hr>
+<p>
+    How to merge two arrays ? Hint define two arrays and then use concat method for eg - array1.concat(array2)
+    <h4 id="merge_two_arrays">
+    </h4>
+</p>
+
+<script>
+
+    var fruits = ["Apple", "Orange", "Mango"];
+    console.log(fruits);
+    document.getElementById("declaration_of_arrays").innerHTML = fruits;
+    var firstfruit = fruits[0];
+    document.getElementById("access_first_element").innerHTML = firstfruit;
+    var lengthofarray = fruits.length;
+    document.getElementById("display_length_of_array").innerHTML = lengthofarray;
+</script>
 </html>
